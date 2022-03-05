@@ -27,7 +27,7 @@
 
     <link rel="stylesheet" href="plugins/summernote/summernote-bs4.min.css"> --}}
 
-    <link rel="stylesheet" href="{{asset('css/app.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
     <script nonce="a78a1dcc-b2f6-44dd-8a2a-3c0f33f71aa2">
         (function(w, d) {
@@ -61,7 +61,8 @@
     <div class="wrapper">
 
         <div class="preloader flex-column justify-content-center align-items-center">
-            <img class="animation__shake" src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60" width="60">
+            <img class="animation__shake" src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTELogo" height="60"
+                width="60">
         </div>
 
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -211,8 +212,8 @@
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
 
             <a href="index3.html" class="brand-link">
-                <img src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
-                    style="opacity: .8">
+                <img src="adminlte/dist/img/AdminLTELogo.png" alt="AdminLTE Logo"
+                    class="brand-image img-circle e levation-3" style="opacity: .8">
                 <span class="brand-text font-weight-light">AdminLTE 3</span>
             </a>
 
@@ -1100,8 +1101,8 @@
                                         <ul class="contacts-list">
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img" src="adminlte/dist/img/user1-128x128.jpg"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img"
+                                                        src="adminlte/dist/img/user1-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Count Dracula
@@ -1117,8 +1118,8 @@
 
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img" src="adminlte/dist/img/user7-128x128.jpg"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img"
+                                                        src="adminlte/dist/img/user7-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Sarah Doe
@@ -1133,8 +1134,8 @@
 
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img" src="adminlte/dist/img/user3-128x128.jpg"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img"
+                                                        src="adminlte/dist/img/user3-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Nadia Jolie
@@ -1149,8 +1150,8 @@
 
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img" src="adminlte/dist/img/user5-128x128.jpg"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img"
+                                                        src="adminlte/dist/img/user5-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Nora S. Vans
@@ -1165,8 +1166,8 @@
 
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img" src="adminlte/dist/img/user6-128x128.jpg"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img"
+                                                        src="adminlte/dist/img/user6-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             John K.
@@ -1181,8 +1182,8 @@
 
                                             <li>
                                                 <a href="#">
-                                                    <img class="contacts-list-img" src="adminlte/dist/img/user8-128x128.jpg"
-                                                        alt="User Avatar">
+                                                    <img class="contacts-list-img"
+                                                        src="adminlte/dist/img/user8-128x128.jpg" alt="User Avatar">
                                                     <div class="contacts-list-info">
                                                         <span class="contacts-list-name">
                                                             Kenneth M.
@@ -1512,7 +1513,7 @@
         </aside>
 
     </div>
-    <script src="{{asset('js/app.js')}}"></script>
+    <script src="{{ asset('js/app.js') }}"></script>
 
     {{-- <script src="plugins/jquery/jquery.min.js"></script>
 
