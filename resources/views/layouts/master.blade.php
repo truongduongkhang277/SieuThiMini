@@ -258,7 +258,7 @@
                             <a href="#" class="nav-link">
                                 <i class="nav-icon fas fa-copy"></i>
                                 <p>
-                                    Layout Options
+                                    Danh mục sản phẩm
                                     <i class="fas fa-angle-left right"></i>
                                 </p>
                             </a>
@@ -266,13 +266,13 @@
                                 <li class="nav-item">
                                     <a href="pages/layout/top-nav.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Top Navigation</p>
+                                        <p>Thêm danh mục</p>
                                     </a>
                                 </li>
                                 <li class="nav-item">
                                     <a href="pages/layout/fixed-topnav.html" class="nav-link">
                                         <i class="far fa-circle nav-icon"></i>
-                                        <p>Fixed Navbar</p>
+                                        <p>Liệt kê danh mục</p>
                                     </a>
                                 </li>
                             </ul>
