@@ -16,6 +16,11 @@ class AdminController extends Controller
         $this->middleware('auth');
     }
 
+    public function login()
+    {
+        return view('admin.login');
+    }
+
     /**
      * Show the application dashboard.
      *
